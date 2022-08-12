@@ -25,6 +25,10 @@ header nav {
     height: 100%;
 }
 
+header nav ul li a:hover {
+    background-color: blueviolet;
+}
+
 header ul {
     height: 70%;
     display: flex;
@@ -278,6 +282,21 @@ section {
     width: 100%;
     grid-area: imgQ;
 }
+.sectionQuien_parrafo p {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
 .sectionQuienes {
     margin: 1rem 0;
     padding: 0 1rem;
