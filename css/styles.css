@@ -5,49 +5,15 @@
 }
 
 /*====================   HEADER   ==================*/
-header {
-    width: 100%;
-    height: 100vh;
-    background: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 2rem;
+
+/*====================   CAROUSEL   ==================*/
+.altura {
+    margin: 1rem 0;
+    padding: 0 1rem;
+    height: 30rem;
+    
 }
 
-header h1 {
-    margin: 0 0 40% 0;
-    color: #FFD1DC;
-    font-family: 'Roboto', sans-serif;
-}
-
-header nav {
-    height: 100%;
-}
-
-header nav ul li a:hover {
-    background-color: blueviolet;
-}
-
-header ul {
-    height: 70%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-li {
-    list-style: none;
-    text-align: center;
-    font-size: 2rem;
-    font-weight: 600;
-    font-family: 'Roboto', sans-serif;
-}
-
-a {
-    text-decoration: none;
-    color:  #FFD1DC;
-}
 
 /*====================   MAIN   ==================*/
 main {
@@ -230,20 +196,7 @@ section {
     width: 100%;
     height: 100%;
 }
-form {
-    background-color: blueviolet ;
-    color: rgb(29, 27, 27);
-    border-radius: 8px;
-    font-size: 1em;
-    padding: 10px;
-    margin: 0 auto;
-    width: 350px;
-}
-input, textarea{
-    border-color: black;
-    outline: none;
-    width: 300px;
-}
+
 .sectionContacto h1 {
     grid-area: h1Contacto;
 }
@@ -330,6 +283,13 @@ footer ul {
     justify-content: space-evenly;
     align-items: center;
 }
+footer li {
+    list-style: none;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
 
 .footeRedes {
     height: 100%;
@@ -361,34 +321,7 @@ footer ul {
     }
 
     /*====================   HEADER   ==================*/
-    header {
-        width: 100%;
-        height: 10vh;
-        background: black;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        padding: 0 1rem;
-    }
-    header h1 {
-        margin: 0;
-        color: #FFD1DC;
-    }
-    header nav {
-        height: 100%;
-         width: 70%;
-    }
-    header ul {
-        height: 100%;
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-    header li {
-        font-size: 1rem;
-    }
+    
 
     /*====================   FOOTER   ==================*/
     footer {
