@@ -203,6 +203,15 @@ section {
 .sectionFormulario {
     grid-area: contacto_form;
 }
+form {
+    background-color: blueviolet ;
+    color: rgb(29, 27, 27);
+    border-radius: 8px;
+    font-size: 1em;
+    padding: 10px;
+    margin: 0 auto;
+
+}
 .sectionContacto {
     margin: 1rem 0;
     padding: 0 1rem;
