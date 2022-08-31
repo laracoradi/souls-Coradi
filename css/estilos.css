@@ -8,6 +8,24 @@ body {
   background-color: antiquewhite;
 }
 
+.ejemploExtendd, .sectionQuienes h1, .sectionContacto h1 {
+  border: 2px solid white;
+  background-color: pink;
+  color: black;
+}
+
+.sectionProductos h1 {
+  height: 80px;
+  width: 360px;
+  background-color: pink;
+}
+
+.sectionDestacado h1 {
+  height: 80px;
+  width: 270px;
+  background-color: pink;
+}
+
 footer {
   width: 100%;
   background: linear-gradient(to left, blue, black);

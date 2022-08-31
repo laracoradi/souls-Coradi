@@ -2,6 +2,7 @@
 @import "generales";
 @import "footer";
 
+
 /*====================   CAROUSEL   ==================*/
 .altura {
     margin: 1rem 0;
@@ -32,6 +33,7 @@ section {
 .sectioNovedades_parrafo {
     grid-area: parrafoNove;
 }
+
 .sectioNovedades {
     margin: 1rem 0;
     padding: 0 1rem;
@@ -73,6 +75,7 @@ section {
         'parrafoTeaser';
     justify-items: center;
 }
+
 
 /*====================   DESTACADAS   ==================*/
 main {
@@ -140,6 +143,7 @@ section {
 .sectionProductos h1 {
     grid-area: h1Produ;
 }
+
 .loona1 img {
     width: 100%;
     grid-area: loona1_img;
@@ -164,6 +168,7 @@ section {
     width: 100%;
     grid-area: loona6_img;
 }
+
 .sectionProductos {
     margin: 1rem 0;
     padding: 0 1rem;
@@ -357,6 +362,7 @@ footer img {
             'imgNove parrafoNove';
         justify-items: center;
     }
+
     .sectioNovedades_parrafo {
         grid-area: parrafoNove;
         display: flex;
