@@ -33,6 +33,9 @@ section {
 .sectioNovedades_parrafo {
     grid-area: parrafoNove;
 }
+.accordionNn {
+    grid-area: acordion;
+}
 
 .sectioNovedades {
     margin: 1rem 0;
@@ -75,7 +78,6 @@ section {
         'parrafoTeaser';
     justify-items: center;
 }
-
 
 /*====================   DESTACADAS   ==================*/
 main {
@@ -199,8 +201,14 @@ section {
 .sectionContacto h1 {
     grid-area: h1Contacto;
 }
+.parrafoContacto {
+    grid-area: parrafoCon;
+}
 .sectionFormulario {
     grid-area: contacto_form;
+}
+.sectionMap {
+    grid-area: mapUbi;
 }
 form {
     background-color: blueviolet ;
@@ -211,6 +219,12 @@ form {
     margin: 0 auto;
 
 }
+.parrafoContacto {
+    p {
+        animation-duration: 3s;
+        animation-name: slidein;
+    }   
+}
 .sectionContacto {
     margin: 1rem 0;
     padding: 0 1rem;
@@ -220,6 +234,8 @@ form {
     gap: 2rem;
     grid-template-areas: 
         'h1Contacto'
+        'parrafoCon'
+        'mapUbi'
         'contacto_form';
     justify-items: center;
 }
@@ -424,7 +440,8 @@ footer img {
         gap: 2rem;
         grid-template-areas: 
             'h1Contacto h1Contacto'
-            'contacto_form contacto_form'; 
+            'parrafoCon mapUbi'
+            'contacto_form contacto_form';
         justify-items: center;
     }
     /*====================   QUIENES   ==================*/

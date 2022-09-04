@@ -8,28 +8,11 @@ body {
     background-color: $fondo;
 }
 
-.ejemploExtendd {
-    border: 2px solid white;
-    background-color: pink;
-    color: black;
-}
-.sectionContacto h1 {
-    @extend .ejemploExtendd;
-
-}
-.sectionQuienes h1 {
-    @extend .ejemploExtendd;
-}
-
-@mixin sizes ($width, $height) {
-    height: $height;
-    width: $width;
-}
-.sectionProductos h1 {
-    @include sizes(360px, 80px);
-    background-color: pink;
-}
-.sectionDestacado h1 {
-    @include sizes(270px,80px);
-    background-color: pink;
+li {
+    a {
+    color: white;
+    &:hover{
+        color: $sombra;
+     }
+    }
 }
